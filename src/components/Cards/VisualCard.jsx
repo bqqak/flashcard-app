@@ -14,37 +14,20 @@ const VisualCard = () => {
       definition: "",
     }
   ])
-  
-  const handleTermChange = (index, value) => {
-    setTasks(prevTasks => {
-      const updatedTasks = [...prevTasks];
-      updatedTasks[index] = { ...updatedTasks[index], term: value};
-      return updatedTasks;
-    })
-  }
-  const handleDefinitionChange = (index, value) => {
-    setTasks(prevTasks => {
-      const updatedTasks = [...prevTasks];
-      updatedTasks[index] = {...updatedTasks[index], definition: value};
-      return updatedTasks;
-    })
-  }
+
+
   return (
     <div className="flex flex-col gap-20 pl-20 min-h-screen visual-card">
         <div className="mt-10">
           <p className="text-white text-3xl">The Hook</p>
         </div>
         <div className="flex flex-col gap-20">
-          <Cards 
-            handleDefinitionChange={handleDefinitionChange}
-            handleTermChange={handleTermChange}
-          />
-          <Cards 
-          handleDefinitionChange={handleDefinitionChange}
-          handleTermChange={handleTermChange}/>
+          <Cards />
+          <Cards />
         </div>
-        <div className="">
+        <div className="flex justify-between items-center ml-20 mr-20">
           <button className="btn-add-more" >add more +</button>
+          <button className='btn-add-more '>Done!</button>
         </div>
       </div>
     

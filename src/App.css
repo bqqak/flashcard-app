@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+p {
+    color: white;
+}
+.my-custom-sub-text {
+    color: rgb(220, 220, 220);
+}

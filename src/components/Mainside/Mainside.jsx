@@ -5,7 +5,7 @@ function Mainside() {
   return (
     <div>
       <div className="ml-40">
-        <p className="slide-up-text header-text-first text-white text-3xl">
+        <p className="slide-up-text header-text-first text-3xl">
           <span className="text-blue-300">Hook</span> makes remembering things
           simple.
         </p>

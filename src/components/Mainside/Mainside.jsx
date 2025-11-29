@@ -5,18 +5,18 @@ function Mainside() {
   return (
     <div>
       <div className="ml-40">
-        <p className="slide-up-text text-white text-3xl">
+        <p className="slide-up-text header-text-first text-white text-3xl">
           <span className="text-blue-300">Hook</span> makes remembering things
           simple.
         </p>
-        <p className="slide-up-text text-white w-150 mt-5 text-xl">
+        <p className="slide-up-text w-150 mt-5 text-xl">
           It is a flashcard app that concentrates your study time on tougher
           concepts, so you spend less effort reviewing what you already remember
           well.
         </p>
       </div>
       <div className="text-center mt-20">
-        <p className="slide-up-text text-3xl leading-15">Advantages</p>
+        <p className="slide-up-text text-3xl leading-15 header-text-first">Advantages</p>
         <p className="slide-up-text my-custom-sub-text text-xl">
           Why people enjoy using Hook
         </p>

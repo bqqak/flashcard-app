@@ -1,4 +1,55 @@
-.main-container {   
+.full-body {
+   width: 100vw;
+   min-height: 100vh;
    background: linear-gradient(135deg, rgb(52, 54, 54), rgb(12, 17, 17));
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+.main-container {   
+   display: flex;
+   flex-direction: column;
+   
+   padding-top: 80px;
+   padding-left: 200px;
+   padding-right: 200px;
+}
+p {
+   color: black;
+   margin: 10px 0;
+   max-width: 100%;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+}
+
+.solo-card > div {
+   width: 100%;
+   max-width: 100%;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+   box-sizing: border-box;
+}
+.solo-card {
+   background-color: white;
+   padding: 20px;
+   min-height: 200px;
+   max-width: 100%;
+   overflow: hidden;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   border-radius: 8px;
+   box-sizing: border-box;
+}
+.hook-text {
+   color: rgb(100, 100, 200);
 
 }

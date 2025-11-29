@@ -1,5 +1,28 @@
 @import "tailwindcss";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgb(52, 54, 54), rgb(12, 17, 17));
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgb(52, 54, 54), rgb(12, 17, 17));
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;

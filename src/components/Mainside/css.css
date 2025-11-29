@@ -1,6 +1,7 @@
 .slide-up-text{
     opacity: 0;
     animation: slideUp 1.5s ease-out forwards;
+    color: white;
 }
 @keyframes slideUp {
     0% {
@@ -12,4 +13,8 @@
         transform: translateY(0);
     }
 
+}
+
+.header-text-first {
+    color: gray;
 }
